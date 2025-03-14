@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dockerizedmvcapp-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: dockerizedmvcapp
+  template:
+    metadata:
+      labels:
+        app: dockerizedmvcapp
+    spec:
+      containers:
+      - name: dockerizedmvcapp
+        image: dikshayadav19/dockerizedmvcapp:v1
+        ports:
+        - containerPort: 80
+

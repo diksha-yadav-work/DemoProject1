@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DockerizedMvcApp/1.0.0": {
+        "runtime": {
+          "DockerizedMvcApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DockerizedMvcApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
